@@ -1,4 +1,3 @@
-/* ===== RESET & BASE ===== */
 * {
   margin: 0;
   padding: 0;
@@ -490,4 +489,5 @@ body {
   .products-grid {
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   }
+
 }
