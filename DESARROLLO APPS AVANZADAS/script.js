@@ -5,7 +5,7 @@ const products = [
     title: "CINTURÓN",
     price: 200.00,
     category: "accesorios",
-    description: "Tus outfits no estarán completos sin este cinturón. Cinturón de balas con hebilla metálica ajustable a cualquier talla. Longitud de 124 cm.",
+    description: "Tus outfits no estarán completos sin este cinturón. Cinturón con hebilla metálica ajustable a cualquier talla. Longitud de 124 cm.",
     features: [
       "Cuero vegano sintético",
       "Balas metálicas",
@@ -270,4 +270,5 @@ document.addEventListener('DOMContentLoaded', () => {
 // Hacer funciones globales para los onclick en HTML
 window.openQuickView = openQuickView;
 window.closeModal = closeModal;
+
 window.addToCart = addToCart;
